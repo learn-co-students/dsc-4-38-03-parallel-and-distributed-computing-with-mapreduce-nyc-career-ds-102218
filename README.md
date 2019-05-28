@@ -36,7 +36,7 @@ The client server architecture has nodes that make requests to a central server.
 
 Peer-to-peer systems allow nodes to communicate with one another directly without requiring approval from a server.
 
-### Network Images
+<img src = "./images/types_of_network.png">
 
 
 ### Parallel Processing Systems
@@ -60,7 +60,7 @@ Imagine you wanted to calculate every baseball players performance for their ent
 
 In the image below, you can see a simple example of a process being broken up and completed both sequentially and in parallel.
 
-### new image here
+<img src = "./images/parallel.png">
 
 Of course, not all problems can be parallelized, but there are some that are formally called [embarrassingly parallel](https://en.wikipedia.org/wiki/Embarrassingly_parallel) problems that require hardly any effort to ensure that a certain task is able to easily parallelizable. One example of this task would be password cracking. An example of something that would be embarrassingly parallelizable would be a movie production company trying to calculate the total profit they made from all of the movies they released in a given year. Let's think about all of the components that go into determining whether or not a movie is profitable.
 
@@ -82,9 +82,7 @@ If a movie studio was to compute each one it's movie's profits sequentially, it 
 
 Here is a diagram of what it parallel processing looks like in actions
 
-### new image here
-
-### new image here
+<img src = "./images/parallel_movies.png">
 
 So how can we make all these nodes communicate with one another? By using a programming paradigm called MapReduce!!
 
@@ -112,7 +110,7 @@ Here are the first five zoos the data scientist reads over in the data document 
 
 Let's now look at how you would use a map reduce framework in this simple word count problem example that could be generalized to much more data.
 
-### Image goes here
+<img src = "./images/word_count.png">
 
 Let's take a look at an image of this process in action and determine what's actually going on.
 
